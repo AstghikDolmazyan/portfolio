@@ -1,0 +1,267 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+
+.general {
+	width:100vw;
+	height:100vh;
+	overflow:hidden;
+    background-image: url(../images/1.jpg);
+    background-position: center;
+    background-size: cover;
+    position:relative;
+}
+
+.menu {
+	width:900px;
+	animation: animatezoom 0.6s;
+    background-color: #fff;
+    position: relative;
+    padding: 0;
+    outline: 0;
+    font-family: "Raleway", sans-serif;
+    line-height: 1.5;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+
+.black {
+	color: #fff!important;
+    background-color: #000!important;
+    padding: 0.01em 16px;
+    position:relative;
+}
+
+.mucho {
+	padding: 0.01em 16px;
+}
+
+.menu div h1{
+	font-family: "Raleway", sans-serif;
+	font-weight: 400;
+    margin: 10px 0;
+    font-size: 36px;
+}
+
+.menu p {
+	font-family: "Raleway", sans-serif;
+	font-weight: 400;
+    margin: 10px 0px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+
+.menu span {
+	position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.menu span {
+	padding:7px 10px;
+	font-size: 18px;
+	position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.blackus {
+	position:relative;
+	padding-right: 15px;
+}
+
+.menu  span:hover{
+	background-color: #ccc;
+	color:black;
+}
+
+
+.menu {
+	display:none;
+}
+
+
+
+.menu {
+	width:900px;
+	animation: animatezoom 0.6s;
+    background-color: #fff;
+    position: relative;
+    padding: 0;
+    outline: 0;
+    font-family: "Raleway", sans-serif;
+    line-height: 1.5;
+    top:30%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+
+.berry {
+	display:flex;
+	flex-direction: column;
+}
+
+
+.contact{
+	width:900px;
+	position:relative;
+	top:30%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+
+.blue {
+	color: #fff;
+    background-color: #000;
+    padding: 0.01em 16px;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.blue h1 {
+	font-weight: 400;
+    margin: 10px 0;
+    font-size: 36px;
+}
+
+.berry{
+	color: #000;
+    background-color: #fff;
+    padding: 0.01em 16px;
+    font-family: "Raleway", sans-serif;
+}
+
+.upp{
+	padding-right: 16px;
+}
+
+.upp input  {
+	padding-top: 16px!important;
+    padding-bottom: 16px!important;
+    border: 1px solid #ccc!important;
+    padding: 8px;
+    width:100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+     font-size: 15px;
+    font-family: "Raleway", sans-serif;
+}
+
+.upp button {
+	border: none;
+    display: inline-block;
+    padding: 20px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+}
+
+.table {
+	font-size: 15px;
+    line-height: 1.5;
+    font-family: "Raleway", sans-serif;
+    padding-top: 16px;
+    padding-bottom:16px ;
+}
+
+.blues h1 span {
+	padding:7px 10px;
+	font-size: 18px;
+	position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.blues {
+	position:relative;
+	padding-right: 15px;
+}
+
+.blues h1 span:hover{
+	background-color: #ccc;
+	color:black;
+}
+
+.contact{
+	display:none;
+}
+
+
+
+
+.logo {
+	position: absolute;
+	top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+	color:white;
+	font-family: 'Raleway', sans-serif;
+}
+
+.logo h1 {
+	font-size: 64px;
+	font-weight: 400;
+}
+
+
+.important {
+
+	padding: 23px 16px;
+}
+
+.important button {
+	font-family: "Raleway", sans-serif;
+	font-size: 24px!important;
+	color: #fff;
+    background-color: #000;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    line-height: 1.5;
+}
+
+.important button:hover{
+	background-color: #ccc;
+	color:black;
+}
+
+.footer {
+	padding: 0.01em 16px;
+	position: absolute;
+    left: 0;
+    bottom: 0;
+    color:white;
+    font-family: "Raleway", sans-serif;
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+
+.mon {
+	 font-size: 24px;
+}
+
+.village {
+	 font-size: 18px;
+}
+
+.pow {
+	 font-size: 15px;
+}
+

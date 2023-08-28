@@ -1,0 +1,336 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+
+nav {
+	width:100%;
+	position: fixed;
+	z-index: 99999;
+}
+
+
+.main {
+	
+	background-color: white;
+	box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+	font-family: "Times New Roman", Georgia, Serif;
+    font-size: 15px;
+    line-height: 1.5; 
+    overflow:hidden;
+    padding: 8px 16px !important;
+    letter-spacing: 4px;
+    display: block;
+    
+    
+}
+
+.leftmanu{
+	width:50%;
+
+}
+
+
+.leftmanu1 li  {
+	float:left;
+	list-style:none;
+	}
+
+
+
+.rightmanu1 li  {
+	float:right;
+	list-style:none;
+	padding-right: 25px;
+   }
+
+   .main li a {
+   	display:block;
+   	padding:8px 16px;
+   }
+
+   .main li a:hover {
+   	background-color: #ccc !important;
+   }
+
+   .back {
+  max-width: 1600px;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+    letter-spacing: 4px;
+    display:block;
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size: 15px;
+    line-height: 1.5;
+
+}
+
+.back img {
+  max-width: 100%;
+    height: auto;
+    vertical-align: center;
+}
+
+.cat {
+  padding: 12px 24px!important;
+  opacity: 0.60;
+  position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index:30;
+}
+
+.cat p {
+  font-size: 36px!important;
+  font-family: "Playfair Display";
+    letter-spacing: 5px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+
+
+   .first  {
+   	padding-top: 64px!important;
+    padding-bottom: 64px!important;
+    display: block;
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size: 18px;
+    line-height: 1.5;
+    padding-right: 130px;
+    padding-left:130px;
+    box-sizing: border-box;
+    overflow:hidden;
+   }
+
+   .tbs2 {
+   	width: 40%;
+   	padding: 12px 24px!important;
+   	float:left;
+   	display: block;
+   	padding-right:30px;
+   }
+
+   .photo2 {
+   	border-radius: 4px;
+   	max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    }
+
+   .first2 {
+
+   	padding:12px 24px!important;
+   	
+
+   }
+
+   .about {
+   	text-align: center!important;
+   	font-family: "Playfair Display";
+    letter-spacing: 5px;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 36px;
+   }
+
+   .trad {
+   	text-align: center!important;
+   	font-family: "Playfair Display";
+    letter-spacing: 5px;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 18px;
+   }
+
+   .text2 {
+   	font-size: 18px!important;
+   	font-family: "Times New Roman", Georgia, Serif;
+   	
+   	
+   }
+
+   .text3 {
+   	font-size: 18px!important;
+   	
+   	color:#757575!important;
+   }
+
+   .unique {
+   	color: #000!important;
+    background-color: #f1f1f1!important;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    font-size: 18px!important;
+   }
+
+
+
+
+   .second {
+   	padding-top: 64px!important;
+    padding-bottom: 64px!important;
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size: 15px;
+    line-height: 1.5;
+    width:100%;
+    height: auto;
+    padding-right: 130px;
+    padding-left:130px;
+    box-sizing: border-box;
+     overflow:hidden;
+
+   }
+
+
+   .photo3 {
+   	width:50%;
+   	float:right;
+    box-sizing: border-box;
+   }
+
+   hr {
+   	border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+   }
+
+
+   .text4 {
+   	width:50%;
+   	padding:12px 24px!important;
+   	float:left;
+    box-sizing:border-box;
+   }
+
+   .text4 h1{
+   	text-align: center!important;
+   	font-family: "Playfair Display";
+    letter-spacing: 5px;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size:36px;
+   }
+
+
+   .text4 h4 {
+   	
+   	font-family: "Playfair Display";
+    letter-spacing: 5px;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size:20px;
+   }
+
+
+   .text4 p {
+   	color: #757575!important;
+   	}
+
+
+    .ABG {
+    padding: 64px 64px;
+    font-size: 15px;
+    line-height: 1.5;
+    }
+
+    .ABG input {
+    width:100%;
+    padding:16px 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+    margin:15px 0;
+    }
+
+    .ABG button {
+      
+    padding-top: 16px!important;
+    padding-bottom: 16px!important;
+    color: #000!important;
+    background-color: #f1f1f1!important;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    margin:15px 0;
+
+    }
+
+
+   	.one {
+   	font-family: "Playfair Display";
+    letter-spacing: 5px;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 36px;
+    
+   	}
+
+    .two {
+      margin:15px 0;
+      
+    }
+
+    .three {
+      font-weight: bolder;
+      color: #607d8b!important;
+      font-size:18px !important;
+      margin:18px 0;
+      
+    }
+
+    .four {
+    margin:15px 0;
+    }
+
+   	
+    @media(max-width: 600px) {
+
+      .rightmanu {
+        display:none;
+      }
+
+      .back img {
+        width:100%;
+      }
+
+      .tbs2 {
+       display:none;
+
+      } 
+      .first2{
+        width:100%;
+        box-sizing: border-box;
+
+      }
+
+      .first {
+        padding:12px 24px;
+      }
+
+      .second  {
+        width:100% !important;
+        
+        padding:12px 24px !important;
+      }
+
+      .text4 {
+        width:100%;
+      }
+
+    }

@@ -1,0 +1,232 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.main {
+	position:relative;
+}
+
+.unipic {
+	width:100%;
+
+}
+.color img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  animation:sun 35s infinite linear;
+}
+.div_1{
+  width: 300px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  animation: galaxy 25s infinite linear;
+}
+.color_1 img{
+  
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  animation:anim1 5s infinite linear;
+}
+.div_2{
+  width: 400px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  animation: galaxy 30s infinite linear;
+}
+.color_2 img{
+ 
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  animation:anim2 10s infinite linear;
+}
+.div_3{
+  width: 550px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  animation: galaxy 35s infinite linear;
+}
+.color_3 img{
+  
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  animation:anim3 7s infinite linear;
+}
+
+
+.moondiv{
+	width: 550px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+
+}
+
+.moondiv img {
+
+	background-color: white;
+	width:30px;
+	height:30px;
+	border-radius:50%;
+}
+
+
+.div_4 {
+  width:650px;
+  height:50px;
+  position:absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  animation: galaxy 40s infinite linear;
+}
+
+.color_4 img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  animation:anim4 15s infinite linear;
+
+}
+
+
+.div_5 {
+  width:840px;
+  height:50px;
+  position:absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  animation: galaxy 45s infinite linear;
+}
+
+.color_5 img {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  animation:anim5 3s infinite linear;
+
+}
+
+
+@keyframes anim1  {
+	
+	from {
+		transform:rotate(0deg);
+
+	}
+	to {
+		transform:rotate(360deg);
+
+	}
+}
+@keyframes anim2  {
+	
+	from {
+		transform:rotate(0deg);
+
+	}
+	to {
+		transform:rotate(360deg);
+
+	}
+}
+
+@keyframes anim3  {
+	
+	from {
+		transform:rotate(0deg);
+
+	}
+	to {
+		transform:rotate(360deg);
+
+	}
+}
+
+@keyframes anim4  {
+	
+	from {
+		transform:rotate(0deg);
+
+	}
+	to {
+		transform:rotate(360deg);
+
+	}
+}
+
+@keyframes anim5  {
+	
+	from {
+		transform:rotate(0deg);
+
+	}
+	to {
+		transform:rotate(360deg);
+
+	}
+}
+
+
+@keyframes sun  {
+	
+	from {
+		transform:rotate(0deg);
+
+	}
+	to {
+		transform:rotate(360deg);
+
+	}
+}
+
+
+
+
+
+
+
+
+
+@keyframes galaxy{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
